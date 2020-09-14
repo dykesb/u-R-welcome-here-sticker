@@ -17,4 +17,4 @@ blank_right <- image_blank(4000,560)
                           "welcome here", size = 555, font = "sans",
                           color = "white", location = "+1000+46"))
 
-image_write(welcome, path = here::here("u-R-welcome-here.png")))
+image_write(welcome, path = here::here("u-R-welcome-here.png"))
