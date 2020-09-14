@@ -1,10 +1,9 @@
 library(tidyverse)
 library(maps)
 library(magick)
-library(here)
 library(hexSticker)
 
-Rainbow_logo <- image_read(paste0(here("Rainbow-logo.png")))
+Rainbow_logo <- image_read(paste0(here::here("Rainbow-logo.png")))
 Rainbow_logo <- image_crop(Rainbow_logo, "724x561+0+563")
 
 blank_left <- image_blank(200,560)
